@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetRelocation: 2024 Financial & Market Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 380px;
+            }
+        }
+        .stat-card h3 {
+            font-size: 5rem;
+            line-height: 1;
+        }
+        .swot-grid > div {
+            border-left-width: 4px;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+    <!-- Palette Name: Brilliant Blues -->
+    <!-- Plan: Structure a narrative from high-level summary to deep-dive analysis. Start with key performance indicators (KPIs), move to detailed financial performance, then analyze the broader market landscape. Follow with internal insights on services and customers, geographic trends, and conclude with a strategic SWOT analysis. This flow creates a comprehensive picture for stakeholders. -->
+    <!-- Visualization Choices:
+        - Revenue Growth -> Line Chart (Chart.js): Goal is to show 'Change' over time. A line chart is the clearest way to visualize temporal trends. NO SVG.
+        - Cost Structure -> Donut Chart (Chart.js): Goal is 'Compare' (composition). A donut chart effectively shows parts of a whole for cost allocation. NO SVG.
+        - Market Size Growth -> Bar Chart (Chart.js): Goal is to show 'Change' and compare discrete time periods. A bar chart clearly shows year-on-year growth and future projections. NO SVG.
+        - Market Share -> Pie Chart (Chart.js): Goal is 'Compare' (composition). A pie chart is standard and intuitive for displaying competitive market shares. NO SVG.
+        - Customer Segments -> Donut Chart (Chart.js): Goal is 'Compare' (composition). Similar to cost structure, this clearly segments the customer base. NO SVG.
+        - Top Relocation Routes -> Horizontal Bar Chart (Chart.js): Goal is to 'Organize' by ranking. A horizontal bar chart is excellent for comparing and ranking categories with long labels. NO SVG.
+        - SWOT Analysis -> HTML/CSS Grid: Goal is to 'Organize' qualitative information. A styled grid is the best method to present this clearly without using prohibited SVG or Mermaid JS.
+    -->
+    <!-- Confirmation: NEITHER Mermaid JS NOR SVG were used anywhere in this output. All visualizations are rendered on Canvas via Chart.js or are structured using standard HTML and styled with Tailwind CSS. -->
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-[#003F5C] mb-2">PetRelocation Inc.</h1>
+            <p class="text-xl md:text-2xl font-semibold text-[#444E86]">2024 Financial Report & Market Analysis</p>
+        </header>
+
+        <section id="kpis" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#003F5C] mb-8">Executive Summary: Key Metrics</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+                <div class="stat-card bg-white p-8 rounded-2xl shadow-lg">
+                    <p class="text-2xl font-semibold text-[#955196] mb-2">2024 Total Revenue</p>
+                    <h3 class="font-extrabold text-[#DD5182]">$88M</h3>
+                    <p class="text-lg text-slate-600 mt-2">An increase of <span class="font-bold">35.4%</span> from 2023</p>
+                </div>
+                <div class="stat-card bg-white p-8 rounded-2xl shadow-lg">
+                    <p class="text-2xl font-semibold text-[#955196] mb-2">Total Pets Relocated in 2024</p>
+                    <h3 class="font-extrabold text-[#FF6E54]">15,200+</h3>
+                    <p class="text-lg text-slate-600 mt-2">Safely connecting families across <span class="font-bold">90+</span> countries</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="financials" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#003F5C] mb-8">Financial Performance</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center text-[#444E86] mb-4">Annual Revenue Growth (in millions USD)</h3>
+                    <p class="text-center text-slate-600 mb-4 px-4">Consistent and strong revenue growth demonstrates increasing market demand and successful expansion strategies, culminating in a record-breaking year.</p>
+                    <div class="chart-container">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center text-[#444E86] mb-4">2024 Operational Cost Structure</h3>
+                     <p class="text-center text-slate-600 mb-4 px-4">Our cost structure is dominated by logistics, with air freight being the largest component. Managing these costs is key to maintaining healthy profit margins.</p>
+                    <div class="chart-container">
+                        <canvas id="costChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="market" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#003F5C] mb-8">Market Landscape Analysis</h2>
+             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center text-[#444E86] mb-4">Global Pet Relocation Market Size (in billions USD)</h3>
+                    <p class="text-center text-slate-600 mb-4 px-4">The global market is experiencing robust growth, projected to more than double from 2021 to 2026, driven by rising global mobility and pet humanization trends.</p>
+                    <div class="chart-container">
+                        <canvas id="marketSizeChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center text-[#444E86] mb-4">Competitive Market Share (2024)</h3>
+                    <p class="text-center text-slate-600 mb-4 px-4">PetRelocation holds a leading 25% share in a fragmented market, highlighting our brand strength and extensive operational footprint against key competitors.</p>
+                    <div class="chart-container">
+                        <canvas id="marketShareChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="customers" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#003F5C] mb-8">Customer & Service Insights</h2>
+             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center text-[#444E86] mb-4">Primary Customer Segments</h3>
+                    <p class="text-center text-slate-600 mb-4 px-4">Corporate relocations form the backbone of our client base, representing over half of our business. This segment demands high-touch, reliable service.</p>
+                    <div class="chart-container">
+                        <canvas id="customerSegmentsChart"></canvas>
+                    </div>
+                </div>
+                 <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center text-[#444E86] mb-4">Top Relocation Routes by Volume (2024)</h3>
+                    <p class="text-center text-slate-600 mb-4 px-4">Transatlantic routes, particularly between the US and key European markets like the UK and Germany, remain our most active and profitable corridors.</p>
+                    <div class="chart-container">
+                        <canvas id="topRoutesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="swot" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#003F5C] mb-8">Strategic Outlook: SWOT Analysis</h2>
+            <div class="swot-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+                <div class="bg-white p-6 rounded-2xl shadow-lg border-l-teal-500">
+                    <h3 class="text-2xl font-bold mb-3 text-teal-600">Strengths ✅</h3>
+                    <ul class="list-disc list-inside space-y-2 text-slate-700">
+                        <li>Extensive global network</li>
+                        <li>Premium, high-touch service model</li>
+                        <li>Strong brand recognition and trust</li>
+                        <li>Expertise in complex regulations</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg border-l-amber-500">
+                    <h3 class="text-2xl font-bold mb-3 text-amber-600">Weaknesses ⚠️</h3>
+                    <ul class="list-disc list-inside space-y-2 text-slate-700">
+                        <li>High operational costs</li>
+                        <li>Dependency on airline partners</li>
+                        <li>Complex, lengthy sales cycle</li>
+                        <li>Vulnerability to travel disruptions</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg border-l-sky-500">
+                    <h3 class="text-2xl font-bold mb-3 text-sky-600">Opportunities 🚀</h3>
+                    <ul class="list-disc list-inside space-y-2 text-slate-700">
+                        <li>Growing corporate expat market</li>
+                        <li>Expansion into emerging markets</li>
+                        <li>Ancillary services (e.g., insurance)</li>
+                        <li>Tech integration for client tracking</li>
+                    </ul>
+                </div>
+                 <div class="bg-white p-6 rounded-2xl shadow-lg border-l-red-500">
+                    <h3 class="text-2xl font-bold mb-3 text-red-600">Threats 📉</h3>
+                    <ul class="list-disc list-inside space-y-2 text-slate-700">
+                        <li>Changing airline pet policies</li>
+                        <li>Increasing price-based competition</li>
+                        <li>Global economic downturns</li>
+                        <li>Geopolitical instability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-12 pt-8 border-t border-slate-300">
+            <p class="text-slate-600">This report is based on internal data and market analysis conducted for the fiscal year 2024. All projections are estimates.</p>
+            <p class="text-sm text-slate-500 mt-2">PetRelocation Inc. © 2025</p>
+        </footer>
+
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const brilliantBlues = ['#003F5C', '#58508d', '#bc5090', '#ff6361', '#ffa600'];
+        const brilliantBluesAlt = ['#003F5C', '#444E86', '#955196', '#DD5182', '#FF6E54', '#FFA600'];
+
+        const processLabels = (labels) => {
+            return labels.map(label => {
+                if (label.length > 16) {
+                    const words = label.split(' ');
+                    let currentLine = '';
+                    const lines = [];
+                    words.forEach(word => {
+                        if ((currentLine + ' ' + word).trim().length > 16) {
+                            lines.push(currentLine.trim());
+                            currentLine = word;
+                        } else {
+                            currentLine = (currentLine + ' ' + word).trim();
+                        }
+                    });
+                    if (currentLine) {
+                        lines.push(currentLine);
+                    }
+                    return lines;
+                }
+                return label;
+            });
+        };
+
+        const tooltipTitleCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                                return label.join(' ');
+                            } else {
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        const ctxRevenue = document.getElementById('revenueChart')?.getContext('2d');
+        if(ctxRevenue) {
+            new Chart(ctxRevenue, {
+                type: 'line',
+                data: {
+                    labels: ['2021', '2022', '2023', '2024'],
+                    datasets: [{
+                        label: 'Revenue in Millions',
+                        data: [35, 48, 65, 88],
+                        backgroundColor: 'rgba(221, 81, 130, 0.2)',
+                        borderColor: '#DD5182',
+                        fill: true,
+                        tension: 0.4,
+                        pointBackgroundColor: '#DD5182',
+                        pointRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value + 'M';
+                                }
+                            }
+                        }
+                    },
+                    ...tooltipTitleCallback
+                }
+            });
+        }
+
+        const ctxCost = document.getElementById('costChart')?.getContext('2d');
+        if(ctxCost) {
+            new Chart(ctxCost, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Air Freight', 'Ground Transport', 'Vet & Compliance', 'Admin & Staff', 'Marketing'],
+                    datasets: [{
+                        label: 'Cost Structure',
+                        data: [40, 15, 20, 15, 10],
+                        backgroundColor: brilliantBluesAlt,
+                        borderColor: '#ffffff',
+                        borderWidth: 2,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        },
+                        ...tooltipTitleCallback.plugins
+                    }
+                }
+            });
+        }
+
+        const ctxMarketSize = document.getElementById('marketSizeChart')?.getContext('2d');
+        if(ctxMarketSize) {
+            new Chart(ctxMarketSize, {
+                type: 'bar',
+                data: {
+                    labels: ['2021', '2022', '2023', '2024', '2025 (Proj.)', '2026 (Proj.)'],
+                    datasets: [{
+                        label: 'Market Size in Billions',
+                        data: [1.1, 1.3, 1.5, 1.8, 2.1, 2.5],
+                        backgroundColor: [
+                            '#003F5C', '#003F5C', '#003F5C', '#003F5C',
+                            '#FF6E54', '#FF6E54'
+                        ],
+                        borderRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value + 'B';
+                                }
+                            }
+                        }
+                    },
+                    ...tooltipTitleCallback
+                }
+            });
+        }
+
+        const ctxMarketShare = document.getElementById('marketShareChart')?.getContext('2d');
+        if(ctxMarketShare) {
+            new Chart(ctxMarketShare, {
+                type: 'pie',
+                data: {
+                    labels: ['PetRelocation', 'Starwood Pet Travel', 'Air Animal', 'Happy Tails Travel', 'Others'],
+                    datasets: [{
+                        label: 'Market Share %',
+                        data: [25, 20, 18, 15, 22],
+                        backgroundColor: brilliantBluesAlt,
+                        borderColor: '#ffffff',
+                        borderWidth: 2,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        },
+                        ...tooltipTitleCallback.plugins
+                    }
+                }
+            });
+        }
+        
+        const ctxCustomerSegments = document.getElementById('customerSegmentsChart')?.getContext('2d');
+        if(ctxCustomerSegments) {
+            new Chart(ctxCustomerSegments, {
+                type: 'doughnut',
+                data: {
+                    labels: processLabels(['Corporate Relocations', 'Individual Movers', 'Military Families']),
+                    datasets: [{
+                        label: 'Customer Segments',
+                        data: [55, 30, 15],
+                        backgroundColor: ['#444E86', '#DD5182', '#FFA600'],
+                        borderColor: '#ffffff',
+                        borderWidth: 2,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        },
+                        ...tooltipTitleCallback.plugins
+                    }
+                }
+            });
+        }
+
+        const ctxTopRoutes = document.getElementById('topRoutesChart')?.getContext('2d');
+        if (ctxTopRoutes) {
+            new Chart(ctxTopRoutes, {
+                type: 'bar',
+                data: {
+                    labels: ['USA <-> UK', 'USA <-> Germany', 'USA <-> Australia', 'Canada <-> USA', 'UAE <-> UK'],
+                    datasets: [{
+                        label: 'Number of Moves',
+                        data: [1200, 950, 800, 750, 600],
+                        backgroundColor: '#955196',
+                        borderRadius: 5
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        }
+                    },
+                    ...tooltipTitleCallback
+                }
+            });
+        }
+
+    });
+</script>
+
+</body>
+</html>
