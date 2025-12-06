@@ -4,11 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Toby's Neko Den Blog</title>
+  
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
   <style>
     :root {
       --bg1: #f7f6fb;
       --bg2: #ffffff;
-      --accent: #ffb7d5;
+      --accent: #86cecb;
       --text: #444;
       --subtext: #777;
       --shadow: rgba(0,0,0,0.08);
@@ -78,6 +81,15 @@
       margin-top: 24px;
       font-size: 2.2rem;
     }
+    .visitor-count {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+    .visitor-count span {
+      font-weight: bold;
+      color: var(--accent); 
+      margin: 0 3px;
   </style>
 </head>
 <body>
@@ -117,13 +129,21 @@
 
     <div class="card">
       <div class="card-title">最近在听的歌～</div>
-      <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3bhP5Db4ZBcvqE0oJRLzhU?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
-  
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E5%BF%98%E3%82%8C%E3%81%98%E3%81%AE%E8%A8%80%E3%81%AE%E8%91%89/1624611015?i=1624611021"></iframe>
+      </div>
   </div>
 
-  <div class="footer">©2025 Toby-top · tobysneko.com 喜欢您来～<br/>
-    Contact: thoth_0214@yahoo.com
+  <div class="footer">
+    Contact: thoth_0214@yahoo.com<br/>
+    ©2025 Toby-top · tobysneko.com 喜欢您来～
+    <div class="visitor-count">
+      <span id="busuanzi_container_site_pv" style="display:none">
+        本站总被访问 <span id="busuanzi_value_site_pv"></span> 次 🐾
+      </span>
+      <span id="busuanzi_container_site_uv" style="display:none; margin-left: 10px;">
+        访客数 <span id="busuanzi_value_site_uv"></span> 人
+      </span>
+    </div>
   </div>
 </body>
 </html>
