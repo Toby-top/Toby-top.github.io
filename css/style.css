@@ -1,173 +1,192 @@
-/* ========== 全局基础 ========== */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Quicksand:wght@400;600&display=swap');
-
+/* -----------------------------------
+   Global Setup – 初音未来淡雅风 Theme
+----------------------------------- */
 :root {
   --miku-main: #39C5BB;
-  --miku-light: #AEEFFF;
-  --miku-dark: #00A8A8;
-  --bg: #F6FEFF;
-  --card-bg: rgba(255, 255, 255, 0.75);
-  --text-main: #244;
-  --text-sub: #577;
+  --miku-light: #A7F3F0;
+  --bg-soft: #F6FEFF;
+  --text-dark: #333;
+  --text-sub: #666;
+  --radius: 18px;
+  --transition: 0.25s ease;
+  --font-title: "Quicksand", "Noto Sans SC", sans-serif;
+  --font-body: "Noto Sans SC", sans-serif;
 }
 
-html, body {
+/* 页面背景 */
+body {
   margin: 0;
-  padding: 0;
-  background: var(--bg);
-  font-family: 'Noto Sans SC', 'Quicksand', sans-serif;
-  color: var(--text-main);
+  background: var(--bg-soft);
+  font-family: var(--font-body);
+  color: var(--text-dark);
   line-height: 1.7;
-  overflow-x: hidden;
 }
 
-/* ========== 顶部 Header ========== */
-
-.site-header {
-  text-align: center;
-  padding: 70px 20px 60px;
-  position: relative;
+/* -----------------------------------
+   Navigation Bar — 玻璃拟态初音风
+----------------------------------- */
+nav.nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 16px 0;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-.site-header .title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  color: var(--miku-dark);
-  text-shadow: 0 0 8px rgba(57, 197, 187, .3);
-}
-
-.site-header .sub {
-  margin-top: 8px;
+nav.nav a {
+  text-decoration: none;
+  font-size: 17px;
   color: var(--text-sub);
-  font-size: 1.1rem;
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  transition: var(--transition);
 }
 
-/* 初音未来光带效果 */
-.miku-light {
-  position: absolute;
-  left: 50%;
-  top: 100%;
-  width: 150%;
-  height: 80px;
-  transform: translateX(-50%);
-  background: linear-gradient(90deg,
-    transparent,
-    var(--miku-main),
-    var(--miku-light),
-    transparent
-  );
-  opacity: 0.4;
-  filter: blur(40px);
-  pointer-events: none;
-  animation: wave 6s infinite linear;
+/* hover 效果 */
+nav.nav a:hover {
+  color: var(--miku-main);
+  background: rgba(57, 197, 187, 0.12);
 }
 
-@keyframes wave {
-  0% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(10px); }
-  100% { transform: translateX(-50%) translateY(0); }
+/* active（当前页面）效果 */
+nav.nav a.active {
+  color: white;
+  background: var(--miku-main);
+  box-shadow: 0 0 14px rgba(57, 197, 187, 0.55);
 }
 
-/* ========== 内容卡片 ========== */
+/* -----------------------------------
+   Header
+----------------------------------- */
+header {
+  text-align: center;
+  padding: 60px 0 40px;
+}
 
+header .title {
+  font-family: var(--font-title);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--miku-main);
+  text-shadow: 0 0 12px rgba(57, 197, 187, 0.3);
+}
+
+header .sub {
+  margin-top: 10px;
+  color: var(--text-sub);
+  font-size: 16px;
+}
+
+/* -----------------------------------
+   Page Title（顶级标题，用在 blog.html）
+----------------------------------- */
+.page-title {
+  font-size: 32px;
+  font-family: var(--font-title);
+  text-align: center;
+  margin: 20px 0 30px;
+  color: var(--miku-main);
+  text-shadow: 0 0 10px rgba(57, 197, 187, 0.25);
+}
+
+/* -----------------------------------
+   Post Title / Post Date（文章页面）
+----------------------------------- */
+.post-title {
+  font-size: 28px;
+  font-family: var(--font-title);
+  color: var(--miku-main);
+  margin-bottom: 10px;
+}
+
+.post-date {
+  color: var(--text-sub);
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+/* -----------------------------------
+   Card – 玻璃拟态
+----------------------------------- */
 .container {
-  width: 90%;
-  max-width: 780px;
-  margin: auto;
-  padding-bottom: 60px;
+  width: min(900px, 92%);
+  margin: 0 auto 80px;
 }
 
 .card {
-  background: var(--card-bg);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
-  padding: 22px 25px;
-  margin-bottom: 26px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-  border: 1px solid rgba(57, 197, 187, 0.15);
-  transition: transform .15s ease, box-shadow .2s ease;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  padding: 28px;
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  transition: var(--transition);
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 26px rgba(57,197,187,0.15);
-}
-
-/* 欢迎卡片更可爱一些 */
-.card.hi {
-  position: relative;
-  overflow: hidden;
-}
-
-.card.hi::before {
-  content: '';
-  position: absolute;
-  width: 220%;
-  height: 180%;
-  left: -60%;
-  top: -40%;
-  background: radial-gradient(circle,
-    rgba(57,197,187,0.2),
-    transparent 60%
-  );
-  animation: floatlight 7s infinite ease-in-out;
-}
-
-@keyframes floatlight {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(20px, 20px); }
-  100% { transform: translate(0, 0); }
+  transform: translateY(-4px);
+  box-shadow: 0 8px 26px rgba(57, 197, 187, 0.20);
 }
 
 .card-title {
-  font-size: 1.4rem;
+  font-size: 20px;
   font-weight: 600;
-  color: var(--miku-dark);
+  font-family: var(--font-title);
+  color: var(--miku-main);
   margin-bottom: 10px;
 }
 
 .card-text {
-  font-size: 1rem;
+  font-size: 16px;
+  color: var(--text-dark);
 }
 
-.time {
-  color: var(--text-sub);
-  font-size: 0.9rem;
-  margin-top: 6px;
-}
-
-/* 萌系表情符号 */
 .neko {
-  text-align: right;
   margin-top: 10px;
-  font-size: 1.3rem;
-  color: var(--miku-dark);
+  text-align: right;
+  color: var(--miku-main);
+  font-size: 20px;
 }
 
-/* ========== Footer ========== */
-
-footer {
+/* -----------------------------------
+   Footer
+----------------------------------- */
+.footer {
   text-align: center;
-  padding: 40px 10px;
+  padding: 40px 0 60px;
   color: var(--text-sub);
-  font-size: 0.95rem;
+  font-size: 14px;
 }
 
-footer a {
+.footer a {
   color: var(--miku-main);
 }
 
-.visitor-count {
-  margin-top: 6px;
+/* -----------------------------------
+   Apple Music iframe fix
+----------------------------------- */
+iframe {
+  border-radius: var(--radius);
+  overflow: hidden;
 }
 
-/* ========== 响应式 ========== */
+/* 手机优化 */
 @media (max-width: 600px) {
-  .site-header .title {
-    font-size: 2.2rem;
+  nav.nav {
+    gap: 20px;
   }
+
+  .title {
+    font-size: 32px;
+  }
+
   .card {
-    padding: 18px 20px;
+    padding: 22px;
   }
 }
