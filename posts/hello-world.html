@@ -15,83 +15,29 @@
 
 </div>
 
-<!-- 评论系统 -->
-<h2 class="comment-title">评论区</h2>
+<!-- Waline 样式表 -->
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@2/dist/waline.css" />
 
-<div class="comment-box">
-    <input id="nickname" type="text" placeholder="你的昵称（必填）">
+<!-- 评论区挂载点 -->
+<div id="waline" style="max-width: 680px;margin: 40px auto;"></div>
 
-    <textarea id="commentText" placeholder="写点什么吧…（必填）"></textarea>
+<!-- Waline 脚本 -->
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@2/dist/waline.mjs';
 
-    <button onclick="postComment()">发布</button>
-</div>
-
-<div id="commentList"></div>
-
-<script>
-// 获取系统信息
-function detectSystem() {
-    const ua = navigator.userAgent;
-
-    let os = "Unknown OS";
-    if (/Windows/i.test(ua)) os = "Windows";
-    else if (/Macintosh|Mac OS X/i.test(ua)) os = "macOS";
-    else if (/Android/i.test(ua)) os = "Android";
-    else if (/iPhone|iPad/i.test(ua)) os = "iOS";
-    else if (/Linux/i.test(ua)) os = "Linux";
-
-    let browser = "Unknown Browser";
-    if (/Firefox/i.test(ua)) browser = "Firefox";
-    else if (/Chrome/i.test(ua) && !/Edg/i.test(ua)) browser = "Chrome";
-    else if (/Safari/i.test(ua) && !/Chrome/i.test(ua)) browser = "Safari";
-    else if (/Edg/i.test(ua)) browser = "Edge";
-
-    return `${os} / ${browser}`;
-}
-
-// 加载评论
-function loadComments() {
-    const saved = JSON.parse(localStorage.getItem("comments_hw") || "[]");
-    const list = document.getElementById("commentList");
-    list.innerHTML = "";
-
-    saved.forEach(c => {
-        const div = document.createElement("div");
-        div.className = "comment-card";
-        div.innerHTML = `
-            <div class="comment-header">
-                <span class="nickname">${c.nickname}</span>
-                <span class="meta">${c.device}</span>
-            </div>
-            <div class="content">${c.text}</div>
-            <div class="time">${c.time}</div>
-        `;
-        list.appendChild(div);
-    });
-}
-
-// 发表评论
-function postComment() {
-    const nickname = document.getElementById("nickname").value.trim();
-    const text = document.getElementById("commentText").value.trim();
-
-    if (!nickname || !text) {
-        alert("昵称和内容不能为空！");
-        return;
-    }
-
-    const device = detectSystem();
-    const time = new Date().toLocaleString();
-
-    const comment = { nickname, text, device, time };
-
-    const saved = JSON.parse(localStorage.getItem("comments_hw") || "[]");
-    saved.unshift(comment);
-    localStorage.setItem("comments_hw", JSON.stringify(saved));
-
-    document.getElementById("commentText").value = "";
-    loadComments();
-}
-
-loadComments();
+  init({
+    el: '#waline',
+    serverURL: 'https://tobysneko-eoyaefjtw-toby-tops-projects.vercel.app',
+    locale: {
+      nick: '昵称',
+      placeholder: '欢迎留言喵~ (´• ω •`)ﾉ'
+    },
+    emoji: [
+      '//unpkg.com/@waline/emojis@1.1.0/tw-emoji'
+    ],
+    pageview: true,
+    requiredMeta: ['nick'],
+    meta: ['nick','mail','link'],
+    commentSorting: 'latest',
+  });
 </script>
