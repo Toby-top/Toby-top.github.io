@@ -1,32 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>文章列表</title>
-    <link rel="stylesheet" href="css/style.css"> 
+  <meta charset="utf-8">
+  <title>Toby 的文章</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
+<header class="nav">
+  <a href="/">主页</a>
+  <a href="/blog.html" class="active">文章</a>
+  <a href="/about.html">关于</a>
+</header>
 
-    <header>
-        <a href="index.html">⬅️ 返回首页</a>
-        <h1>我的知识库</h1>
-    </header>
+<div class="container">
+  <h1 class="page-title">📚 全部文章</h1>
 
-    <main>
-        <ul class="article-list">
-            
-            <li>
-                <span class="date">2025-12-01</span>
-                <a href="posts/hello-world.html">第一篇博客：Hello World</a>
-            </li>
+  <div class="post-list">
 
-            <li>
-                <span class="date">2025-12-07</span>
-                <a href="posts/secret-project.html">🔒 [加密] 绝密项目计划书 (需要口令)</a>
-            </li>
+    <a class="post-item" href="/posts/hello-world.html">
+      <div class="post-title">Hello World</div>
+      <div class="post-date">2025-12-06 10:45</div>
+    </a>
 
-        </ul>
-    </main>
+    <a class="post-item" href="/posts/secret-project.html">
+      <div class="post-title">神秘项目（加密）</div>
+      <div class="post-date">2025-12-06</div>
+    </a>
 
-    </body>
+  </div>
+</div>
+
+</body>
 </html>
