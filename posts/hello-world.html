@@ -1,43 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <title>Hello World! - Toby's Neko Den</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@2/dist/waline.css" />
 </head>
 
-<div class="post-container">
+<body>
+  <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/blog.html">文章</a>
+      <a href="/about.html">关于我</a>
+  </nav>
 
-    <div class="post-title">Hello World!</div>
-
+  <div class="post-container">
+    <h1 class="post-title">Hello World!</h1>
     <div class="post-date">2025.12.06 10:45</div>
 
     <div class="post-content">
-        即使世界毁灭，我也想再见你一面<br>
-        -----《你好世界》
+      即使世界毁灭，我也想再见你一面<br/>
+      ——《你好世界》
     </div>
+  </div>
 
-</div>
+  <!-- 评论区 -->
+  <div id="waline" style="max-width: 680px;margin: 40px auto;"></div>
 
-<!-- Waline 样式表 -->
-<link rel="stylesheet" href="https://unpkg.com/@waline/client@2/dist/waline.css" />
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@2/dist/waline.mjs';
 
-<!-- 评论区挂载点 -->
-<div id="waline" style="max-width: 680px;margin: 40px auto;"></div>
+    init({
+      el: '#waline',
+      serverURL: 'https://tobysneko-eoyaefjtw-toby-tops-projects.vercel.app',
+      locale: {
+        nick: '昵称',
+        placeholder: '欢迎留言喵~ (´• ω •`)ﾉ'
+      },
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.1.0/tw-emoji'
+      ],
+      pageview: true,
+      requiredMeta: ['nick'],
+      meta: ['nick','mail','link'],
+      commentSorting: 'latest',
+    });
+  </script>
 
-<!-- Waline 脚本 -->
-<script type="module">
-  import { init } from 'https://unpkg.com/@waline/client@2/dist/waline.mjs';
-
-  init({
-    el: '#waline',
-    serverURL: 'https://tobysneko-eoyaefjtw-toby-tops-projects.vercel.app',
-    locale: {
-      nick: '昵称',
-      placeholder: '欢迎留言喵~ (´• ω •`)ﾉ'
-    },
-    emoji: [
-      '//unpkg.com/@waline/emojis@1.1.0/tw-emoji'
-    ],
-    pageview: true,
-    requiredMeta: ['nick'],
-    meta: ['nick','mail','link'],
-    commentSorting: 'latest',
-  });
-</script>
+</body>
+</html>
