@@ -1,117 +1,173 @@
-/* ----- 基础设定 ----- */
-body {
+/* ========== 全局基础 ========== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Quicksand:wght@400;600&display=swap');
+
+:root {
+  --miku-main: #39C5BB;
+  --miku-light: #AEEFFF;
+  --miku-dark: #00A8A8;
+  --bg: #F6FEFF;
+  --card-bg: rgba(255, 255, 255, 0.75);
+  --text-main: #244;
+  --text-sub: #577;
+}
+
+html, body {
   margin: 0;
-  font-family: "Noto Sans SC", "Hiragino Sans", "Segoe UI", sans-serif;
-  background: #f7f5fa;
-  color: #333;
+  padding: 0;
+  background: var(--bg);
+  font-family: 'Noto Sans SC', 'Quicksand', sans-serif;
+  color: var(--text-main);
+  line-height: 1.7;
+  overflow-x: hidden;
 }
 
-/* ----- 顶部导航栏 ----- */
-.nav {
-  background: #ffffffdd;
-  backdrop-filter: blur(10px);
-  padding: 12px 20px;
-  display: flex;
-  gap: 20px;
-  border-bottom: 1px solid #eee;
-  position: sticky;
-  top: 0;
-  z-index: 99;
+/* ========== 顶部 Header ========== */
+
+.site-header {
+  text-align: center;
+  padding: 70px 20px 60px;
+  position: relative;
 }
 
-.nav a {
-  color: #666;
-  text-decoration: none;
-  font-size: 15px;
-  transition: 0.2s;
+.site-header .title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--miku-dark);
+  text-shadow: 0 0 8px rgba(57, 197, 187, .3);
 }
 
-.nav a:hover,
-.nav a.active {
-  color: #ff92c2;
-  font-weight: bold;
+.site-header .sub {
+  margin-top: 8px;
+  color: var(--text-sub);
+  font-size: 1.1rem;
 }
 
-/* ----- 主容器 ----- */
+/* 初音未来光带效果 */
+.miku-light {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 150%;
+  height: 80px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg,
+    transparent,
+    var(--miku-main),
+    var(--miku-light),
+    transparent
+  );
+  opacity: 0.4;
+  filter: blur(40px);
+  pointer-events: none;
+  animation: wave 6s infinite linear;
+}
+
+@keyframes wave {
+  0% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(10px); }
+  100% { transform: translateX(-50%) translateY(0); }
+}
+
+/* ========== 内容卡片 ========== */
+
 .container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+  width: 90%;
+  max-width: 780px;
+  margin: auto;
+  padding-bottom: 60px;
 }
 
-/* ----- 首页卡片 ----- */
 .card {
-  background: white;
-  padding: 22px;
-  border-radius: 18px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px #00000010;
-  transition: 0.2s;
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 22px 25px;
+  margin-bottom: 26px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  border: 1px solid rgba(57, 197, 187, 0.15);
+  transition: transform .15s ease, box-shadow .2s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 12px #00000018;
+  box-shadow: 0 12px 26px rgba(57,197,187,0.15);
 }
 
-/* ----- 文章列表 ----- */
-.page-title {
-  font-size: 26px;
-  margin-bottom: 20px;
+/* 欢迎卡片更可爱一些 */
+.card.hi {
+  position: relative;
+  overflow: hidden;
 }
 
-.post-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.card.hi::before {
+  content: '';
+  position: absolute;
+  width: 220%;
+  height: 180%;
+  left: -60%;
+  top: -40%;
+  background: radial-gradient(circle,
+    rgba(57,197,187,0.2),
+    transparent 60%
+  );
+  animation: floatlight 7s infinite ease-in-out;
 }
 
-.post-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 14px 20px;
-  background: white;
-  border-radius: 12px;
-  text-decoration: none;
-  color: #444;
-  box-shadow: 0 3px 6px #0000000f;
-  transition: 0.2s;
+@keyframes floatlight {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(20px, 20px); }
+  100% { transform: translate(0, 0); }
 }
 
-.post-item:hover {
-  background: #ffeaf4;
-  transform: translateX(4px);
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--miku-dark);
+  margin-bottom: 10px;
 }
 
-.post-title {
-  font-size: 18px;
+.card-text {
+  font-size: 1rem;
 }
 
-.post-date {
-  font-size: 14px;
-  color: #999;
+.time {
+  color: var(--text-sub);
+  font-size: 0.9rem;
+  margin-top: 6px;
 }
 
-/* ----- 单篇文章 ----- */
-.post-container {
-  background: white;
-  padding: 30px;
-  border-radius: 18px;
-  box-shadow: 0 4px 8px #00000010;
+/* 萌系表情符号 */
+.neko {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: var(--miku-dark);
 }
 
-.post-content p {
-  line-height: 1.8;
-  margin-bottom: 12px;
+/* ========== Footer ========== */
+
+footer {
+  text-align: center;
+  padding: 40px 10px;
+  color: var(--text-sub);
+  font-size: 0.95rem;
 }
 
-/* ----- 响应式 ----- */
+footer a {
+  color: var(--miku-main);
+}
+
+.visitor-count {
+  margin-top: 6px;
+}
+
+/* ========== 响应式 ========== */
 @media (max-width: 600px) {
-  .nav {
-    gap: 12px;
+  .site-header .title {
+    font-size: 2.2rem;
   }
-  .post-item {
-    flex-direction: column;
-    gap: 4px;
+  .card {
+    padding: 18px 20px;
   }
 }
