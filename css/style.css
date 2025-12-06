@@ -200,6 +200,85 @@ header .sub {
     font-size: 1.05rem;
 }
 
+.comment-title {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* 输入框 */
+.comment-box {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.comment-box input,
+.comment-box textarea {
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background: #ffffffaa;
+    backdrop-filter: blur(6px);
+    font-size: 14px;
+}
+
+.comment-box textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.comment-box button {
+    width: 100px;
+    padding: 8px;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.comment-box button:hover {
+    transform: scale(1.05);
+    background: #00a0ba;
+}
+
+/* 评论卡片 */
+.comment-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.nickname {
+    font-weight: 600;
+}
+
+.meta {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.content {
+    margin: 4px 0 10px 0;
+}
+
+.time {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
 /* -----------------------------------
    Apple Music iframe fix
 ----------------------------------- */
