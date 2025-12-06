@@ -4,68 +4,93 @@
   <meta charset="utf-8" />
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Toby 的猫窝 · 生活随笔 · 技术学习 · 简约淡雅博客">
-  <meta name="keywords" content="Toby, blog, neko, 博客, 个人网站, 技术博客, 简约风">
+
+  <!-- SEO -->
+  <meta name="description" content="Toby 的猫窝 · 淡雅日系 · 温柔二次元 · 生活与技术的记录">
+  <meta name="keywords" content="Toby, neko, blog, 日系博客, 二次元, 技术, 随笔">
   <meta name="author" content="@Toby_top">
-  <title>Toby's Neko Den</title>
-  <link rel="stylesheet" href="css/style.css">
 
+  <title>Toby's Neko Den · 首页</title>
+  <link rel="stylesheet" href="/css/style.css?v=2">
+
+  <!-- 访问统计 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-   
-
 </head>
+
 <body>
-  <header>
-    <div class="title">Toby's Neko Den</div>
-    <div class="sub">愿你和重要的人，终有天会再相遇</div>
+
+  <!-- 顶部 Banner + 导航 -->
+  <header class="hero">
+    <div class="hero-title">
+      <span class="neko-ear-left">ฅ</span>
+      Toby's Neko Den
+      <span class="neko-ear-right">ฅ</span>
+    </div>
+    <div class="hero-sub">愿你和重要的人，终有天会再相遇</div>
+
+    <nav class="nav">
+      <a href="/" class="active">首页</a>
+      <a href="/blog.html">文章</a>
+      <a href="/about.html">关于我</a>
+    </nav>
   </header>
 
+
+  <!-- 主体内容 -->
   <div class="container">
-    <div class="card">
+
+    <!-- 新手欢迎卡片 -->
+    <div class="card fade-in">
       <div class="card-title">✨ 欢迎来到 tobysneko.com</div>
       <div class="card-text">
-        这是 Toby 的猫窝。<br/>
-        这里大概会记录一些生活感悟、技术学习、旅行足迹，还有一些奇怪的奇思妙想。<br/>
-        希望你在这里感到轻松、治愈、被温柔包围。
+        这是 Toby 的猫窝。<br>
+        这里会记录我的生活感悟、技术学习、旅行故事，还有一些混乱又浪漫的想法。<br>
+        希望这里能让你感到轻松、被温柔包裹。
       </div>
       <div class="neko">ฅ(＾・ω・＾ )ฅ</div>
     </div>
 
-    <div class="card">
-      <div class="card-title">Hello World!</div>
+    <!-- Hello World 文章亮点展示 -->
+    <div class="card fade-in">
+      <div class="card-title">🌸 Hello World!</div>
       <div class="card-text">
-        即使世界毁灭，我也想再见你一面<br/>
-                 -----《你好世界》<br/>
+        即使世界毁灭，我也想再见你一面——《你好世界》<br>
         <div class="sub">2025.12.06 10:45</div>
       </div>
     </div>
-    
-    <div class="card">
-      <div class="card-title">📘 近期更新</div>
+
+    <!-- 更新区 -->
+    <div class="card fade-in">
+      <div class="card-title">📘 最新更新</div>
       <div class="card-text">
-        · 新博客即将上线...<br/>
-        · 前端主题在持续美化（在努力中( ˘･з･)！）<br/>
-        · 欢迎常来看看喵 ～
+        · 博客正在持续美化中 (๑•̀ㅂ•́)و✧<br>
+        · 新主题开发中…<br>
+        · 欢迎常来看看喵～
       </div>
     </div>
 
-    <div class="card">
-      <div class="card-title">🎵最近在听的歌～</div>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E5%BF%98%E3%82%8C%E3%81%98%E3%81%AE%E8%A8%80%E3%81%AE%E8%91%89/1624611015?i=1624611021"></iframe>
-      </div>
+    <!-- 音乐卡片 -->
+    <div class="card fade-in">
+      <div class="card-title">🎵 听歌中…</div>
+      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150"
+        style="width:100%;max-width:660px;overflow:hidden;background:transparent;border-radius:12px;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation 
+        allow-top-navigation-by-user-activation"
+        src="https://embed.music.apple.com/cn/album/%E5%BF%98%E3%82%8C%E3%81%98%E3%81%AE%E8%A8%80%E3%81%AE%E8%91%89/1624611015?i=1624611021"></iframe>
+    </div>
+
   </div>
 
-  <div class="footer">
-    thoth_0214@yahoo.com<br/>
-    ©2025 @Toby_top · tobysneko.com 喜欢您来～
+  <!-- 页脚 -->
+  <footer class="footer">
+    thoth_0214@yahoo.com<br>
+    ©2025 @Toby_top · tobysneko.com 欢迎光临～
     <div class="visitor-count">
-      <!-- <span id="busuanzi_container_site_pv" style="display:none">
-        本站总被访问 <span id="busuanzi_value_site_pv"></span> 次 🐾
-      </span> -->
-      <span id="busuanzi_container_site_uv" style="display:none; margin-left: 10px;">
-        访客数 <span id="busuanzi_value_site_uv"></span> 人🐾
+      <span id="busuanzi_container_site_uv" style="display:none;">
+        访客数 <span id="busuanzi_value_site_uv"></span> 人 🐾
       </span>
     </div>
-  </div>
+  </footer>
+
 </body>
 </html>
