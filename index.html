@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Toby's Neko Den Blog</title>
+  <style>
+    :root {
+      --bg1: #f7f6fb;
+      --bg2: #ffffff;
+      --accent: #ffb7d5;
+      --text: #444;
+      --subtext: #777;
+      --shadow: rgba(0,0,0,0.08);
+    }
+    body {
+      margin: 0;
+      font-family: "Nunito", "PingFang SC", "Hiragino Sans", sans-serif;
+      background: var(--bg1);
+      color: var(--text);
+    }
+    header {
+      width: 100%;
+      padding: 24px;
+      text-align: center;
+      background: var(--bg2);
+      box-shadow: 0 2px 8px var(--shadow);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .title {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #ff8bb0;
+      letter-spacing: 1px;
+    }
+    .sub {
+      font-size: 0.95rem;
+      color: var(--subtext);
+      margin-top: 6px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .card {
+      background: var(--bg2);
+      padding: 22px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px var(--shadow);
+      margin-bottom: 22px;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px var(--shadow);
+    }
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #ff8bb0;
+    }
+    .card-text {
+      margin-top: 10px;
+      line-height: 1.65;
+      color: var(--text);
+    }
+    .footer {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: var(--subtext);
+      font-size: 0.9rem;
+    }
+    .neko {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 2.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">Toby's Neko Blog</div>
+    <div class="sub">愿你和重要的人，终有天会再相遇</div>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-title">✨ 欢迎来到 Tobysneko.com</div>
+      <div class="card-text">
+        这是 Toby 的猫窝。<br/>
+        这里会记录一些生活感悟、技术学习、旅行足迹，还有一些奇怪的奇思妙想。<br/>
+        希望你在这里感到轻松、治愈、被温柔包围。
+      </div>
+      <div class="neko">ฅ(＾・ω・＾ )ฅ</div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">📘 近期更新</div>
+      <div class="card-text">
+        · 新博客即将上线中...<br/>
+        · 前端主题还在持续美化中（在努力中( ˘･з･)！）<br/>
+        · 欢迎常来看看喵 ～
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">© 2025 Toby-top · Tobysneko.com</div>
+</body>
+</html>
