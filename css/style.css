@@ -279,6 +279,47 @@ header .sub {
     opacity: 0.6;
 }
 
+/* 评论区容器整体居中 */
+.comment-area {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 255, 204, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+/* Waline 提示与按钮配色：初音未来色 #39c5bb */
+.wl-btn {
+  background-color: #39c5bb !important;
+  border-color: #2ea89e !important;
+}
+
+.wl-btn:hover {
+  background-color: #2ea89e !important;
+}
+
+/* 输入框边框波光 */
+.wl-editor,
+.wl-input {
+  border: 1px solid rgba(57,197,187,0.4) !important;
+  box-shadow: 0 0 4px rgba(57,197,187,0.3);
+}
+
+/* 输入框 focus 时变成更亮的 Miku 蓝 */
+.wl-editor:focus,
+.wl-input:focus {
+  border-color: #39c5bb !important;
+  box-shadow: 0 0 8px rgba(57,197,187,0.6);
+}
+
+/* 昵称、系统信息 */
+.wl-user .wl-nick {
+  color: #39c5bb !important;
+  font-weight: 600;
+}
+
 /* -----------------------------------
    Apple Music iframe fix
 ----------------------------------- */
