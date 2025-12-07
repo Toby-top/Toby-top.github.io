@@ -28,22 +28,13 @@
   <div id="waline" style="max-width: 680px;margin: 40px auto;"></div>
 
   <script type="module">
-  import { init } from 'https://unpkg.com/@waline/client@2.15.8/dist/waline.mjs';
+    import { init } from "https://unpkg.com/@waline/client";
 
-  init({
-    el: '#waline',
-    serverURL: 'https://neko-comment-fwo9oei33-toby-tops-projects.vercel.app',
-    pageview: true,
-    comment: true,
-    emoji: [
-      'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji',
-      'https://unpkg.com/@waline/emojis@1.1.0/bilibili'
-    ],
-    locale: {
-      placeholder: '留下你的印象吧 (´• ω •`) ♡'
-    }
-  });
-</script>
+    init({
+      el: "#waline",
+      serverURL: "https://leancloudapi.tobysneko.com", 
+    });
+  </script>
 
 </body>
 </html>
