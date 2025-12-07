@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Hello World! - Toby's Neko Den</title>
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@2/dist/waline.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@2.15.8/dist/waline.css">
 </head>
 
 <body>
@@ -28,24 +28,22 @@
   <div id="waline" style="max-width: 680px;margin: 40px auto;"></div>
 
   <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@2/dist/waline.mjs';
+  import { init } from 'https://unpkg.com/@waline/client@2.15.8/dist/waline.mjs';
 
-    init({
-      el: '#waline',
-      serverURL: 'https://tobysneko-eoyaefjtw-toby-tops-projects.vercel.app',
-      locale: {
-        nick: '昵称',
-        placeholder: '欢迎留言喵~ (´• ω •`)ﾉ'
-      },
-      emoji: [
-        '//unpkg.com/@waline/emojis@1.1.0/tw-emoji'
-      ],
-      pageview: true,
-      requiredMeta: ['nick'],
-      meta: ['nick','mail','link'],
-      commentSorting: 'latest',
-    });
-  </script>
+  init({
+    el: '#waline',
+    serverURL: 'https://neko-comment.vercel.app/',
+    pageview: true,
+    comment: true,
+    emoji: [
+      'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji',
+      'https://unpkg.com/@waline/emojis@1.1.0/bilibili'
+    ],
+    locale: {
+      placeholder: '留下你的印象吧 (´• ω •`) ♡'
+    }
+  });
+</script>
 
 </body>
 </html>
