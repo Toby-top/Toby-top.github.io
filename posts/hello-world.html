@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Hello World! - Toby's Neko Den</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@2.15.8/dist/waline.css">
+
+  <!-- 自己的 CSS -->
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- Waline v2（与你后端兼容） -->
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@2.15.8/dist/waline.css" />
 </head>
 
 <body>
+
   <nav class="nav">
-      <a href="/">首页</a>
-      <a href="/blog.html">文章</a>
-      <a href="/about.html">关于我</a>
+    <a href="/">首页</a>
+    <a href="/blog.html">文章</a>
+    <a href="/about.html">关于我</a>
   </nav>
 
   <div class="post-container">
@@ -25,25 +30,15 @@
   </div>
 
   <!-- 评论区 -->
- <head>
-  <!-- ... -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
-  />
-  <!-- ... -->
-</head>
-<body>
-  <!-- ... -->
   <div id="waline"></div>
   <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+    import { init } from 'https://unpkg.com/@waline/client@2.15.8/dist/waline.js';
 
     init({
       el: '#waline',
-      serverURL: 'nekoneko-bkxe52zs8-toby-tops-projects.vercel.app',
+      serverURL: 'https://nekoneko-bkxe52zs8-toby-tops-projects.vercel.app',
     });
   </script>
-</body>
+
 </body>
 </html>
