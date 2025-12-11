@@ -25,16 +25,25 @@
   </div>
 
   <!-- 评论区 -->
+ <head>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
   <div id="waline"></div>
-<script type="module">
-  import { init } from 'https://unpkg.com/@waline/client';
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
-  init({
-    el: '#waline',
-    serverURL: 'https://nekoneko-bkxe52zs8-toby-tops-projects.vercel.app',
-    emoji: false,
-    reaction: false
-  });
-</script>
+    init({
+      el: '#waline',
+      serverURL: 'https://nekoneko-bkxe52zs8-toby-tops-projects.vercel.app',
+    });
+  </script>
+</body>
 </body>
 </html>
