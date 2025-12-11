@@ -25,16 +25,20 @@
   </div>
 
   <!-- 评论区 -->
-  <div id="waline" style="max-width: 680px;margin: 40px auto;"></div>
+  <</div>
+        <div id="waline"></div>
+          <script type="module">
+            import { init } from 'https://unpkg.com/@waline/client';
 
-  <script type="module">
-    import { init } from "https://unpkg.com/@waline/client";
-
-    init({
-      el: "#waline",
-      serverURL: "https://wdEEcZX9UHzdElzYDDNMeQZk-MdYXbMMI.api.lncldglobal.com", 
-    });
-  </script>
-
+            init({
+            el: '#waline',
+            serverURL: 'https://nekoneko-bkxe52zs8-toby-tops-projects.vercel.app',
+            emoji: true,
+            reaction: true,
+            locale: {
+            placeholder: '欢迎留言～'
+            }
+            });
+          </script>
 </body>
 </html>
