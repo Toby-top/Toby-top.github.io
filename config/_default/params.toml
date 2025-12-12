@@ -1,0 +1,11 @@
+# 网站描述
+description = "Toby 的猫窝 · 技术 · 生活 · 动漫 · 随想"
+
+# 首页 Banner
+[hero]
+title = "Toby's Neko Den"
+subtitle = "愿你和重要的人，终有天会再相遇"
+image = "/images/avatar.jpg"
+ctaText = "进入博客"
+ctaUrl = "/posts/"
+customCSS = ["css/blowfish-custom.scss"]

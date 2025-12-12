@@ -1,0 +1,4 @@
+paginate = 10
+enableRobotsTXT = true
+sectionPagesMenu = "main"
+theme = "blowfish"

@@ -1,0 +1,11 @@
+baseURL = "https://tobysneko.com/"
+languageCode = "zh-cn"
+title = "Toby's Neko Den"
+theme = "blowfish"
+defaultContentLanguage = "zh-cn"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+colorScheme = "catppuccin-mocha"
