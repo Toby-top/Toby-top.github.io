@@ -1,0 +1,27 @@
+{{/* ===============================
+   精准字数统计（中文/英文）
+   兼容 Hugo 0.147（无 utf8）
+================================== */}}
+
+{{- $raw := .RawContent | default "" -}}
+
+{{/* 去除 shortcode */}}
+{{- $clean := replaceRE "\\{\\{<.*?>\\}\\}" "" $raw -}}
+{{- $clean = replaceRE "\\{%.*?%\\}" "" $clean -}}
+
+{{/* 去除代码块 */}}
+{{- $clean = replaceRE "```[\\s\\S]*?```" "" $clean -}}
+
+{{/* 去除 markdown 和 html 标签 */}}
+{{- $clean = plainify $clean -}}
+
+{{/* 去除空白、空行、空格 */}}
+{{- $clean = replaceRE "\\s+" "" $clean -}}
+
+{{/* 字符数（Hugo 的 len 是 Unicode-aware，可正确统计中文） */}}
+{{- $count := len $clean -}}
+
+{{/* 阅读时间（中文 400 字/min） */}}
+{{- $reading := math.Ceil (div $count 400) -}}
+
+<span>✧ {{ $count }} 字 · {{ $reading }} 分钟阅读</span>

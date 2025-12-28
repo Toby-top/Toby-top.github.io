@@ -1,0 +1,67 @@
+<div id="article-info">
+  点击量:
+  <span
+    class="waline-pageview-count"
+    data-path="{{ .RelPermalink }}"
+  ></span>
+</div>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+/>
+
+<div id="waline"></div>
+
+<script type="module">
+  import { init } from "https://unpkg.com/@waline/client@v3/dist/waline.js";
+
+  init({
+    el: "#waline",
+
+    pageview: true,   // 访问统计
+    //visitor: true,    // 访客统计
+
+    serverURL: "https://comment.tobysneko.com",
+
+    path: "{{ .RelPermalink }}",
+
+    // 表单配置
+    requiredMeta: ["nick"],           // 只要求昵称
+    meta: ["nick", "mail", "link"],   // 显示邮箱 / 网站（可选）
+
+    locale: {
+      placeholder: "在这里留下你的见解~ (｡•̀ω•́｡)",
+      nick: "昵称",
+      mail: "邮箱",
+      link: "网站"
+    },
+
+    dark: "auto",
+    search: false,    // 关闭gif搜索功能
+    reaction: true,  // 文章反应表情    
+    // emoji: [
+    //   '//unpkg.com/@waline/emojis@1.0.0/tw-emoji/',
+    //   '//unpkg.com/@waline/emojis@1.4.0/weibo',
+    // ]
+  });
+</script>
+
+
+
+<!-- <link
+  rel="stylesheet"
+  href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+/>
+
+<div id="waline"></div>
+
+<script type="module">
+  import { init } from "https://unpkg.com/@waline/client@v3/dist/waline.js";
+
+  init({
+    el: "#waline",
+    serverURL: "https://nekoneko-bkxe52zs8-toby-tops-projects.vercel.app",
+    path: location.pathname,
+  });
+</script> -->

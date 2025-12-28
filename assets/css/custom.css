@@ -1,0 +1,49 @@
+/* ========== Waline × Miku Style ========== */
+
+:root {
+  --miku-main: #39c5bb;
+  --miku-soft: rgba(57, 197, 187, 0.15);
+}
+
+/* 评论区整体卡片 */
+/* #waline {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(57, 197, 187, 0.25);
+} */
+
+/* 深色模式 */
+.dark #waline {
+  background: rgba(30, 41, 59, 0.65);
+}
+
+/* 输入框 */
+.wl-editor,
+.wl-input {
+  border-radius: 12px !important;
+  border: 1px solid var(--miku-main) !important;
+}
+
+/* 提交按钮 */
+.wl-btn.primary {
+  background: linear-gradient(135deg, #39c5bb, #66e0d4);
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* 单条评论 */
+/* .wl-card {
+  border-radius: 14px;
+  background: var(--miku-soft);
+} */
+
+/* view数样式 */
+#article-info {
+  font-size: 0.75rem;
+  color: var(--tw-prose-meta);
+  margin-top: 0.5rem;
+  opacity: 0.70;
+}

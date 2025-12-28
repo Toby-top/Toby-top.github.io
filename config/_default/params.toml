@@ -8,4 +8,22 @@ subtitle = "愿你和重要的人，终有天会再相遇"
 image = "/images/avatar.jpg"
 ctaText = "进入博客"
 ctaUrl = "/posts/"
-customCSS = ["css/blowfish-custom.scss"]
+colorScheme = "ocean"
+customCSS = ["css/custom.css"]
+
+[params.article]
+  showComments = true
+  showReadingTime = true
+  showWordCount = true
+
+[homepage]
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  showRecent = false
+  showRecentItems = 12
+  showMoreLink = false
+  showMoreLinkDest = "docs"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
+  disableHeroImageFilter = false # only used when layout equals hero

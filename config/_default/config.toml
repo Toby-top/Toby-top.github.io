@@ -1,0 +1,26 @@
+enableRobotsTXT = true
+sectionPagesMenu = "main"
+theme = "blowfish" # UNCOMMENT THIS LINE
+baseURL = "https://tobysneko.com/"
+title = "Toby's Neko Den"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+
+hasCJKLanguage = true
+
+pluralizeListTitles = "false" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+
+summaryLength = 20
+
+buildDrafts = false
+buildFuture = false
+
+cardView = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params.article]
+  showComments = true
+  showReadingTime = true
+  showWordCount = true
