@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Fri, 16 Jan 2026 13:51:06 +0800</lastBuildDate><atom:link href="https://tobysneko.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 08:22:28 +0800</lastBuildDate><atom:link href="https://tobysneko.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fitting-拟合(正在施工</title>
+      <link>https://tobysneko.com/posts/overfitting-underfitting/overfitting-underfitting/</link>
+      <pubDate>Sat, 24 Jan 2026 08:22:28 +0800</pubDate>
+      
+      <guid>https://tobysneko.com/posts/overfitting-underfitting/overfitting-underfitting/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  &lt;blockquote&gt;
+&lt;p&gt;如非必要，勿增实体&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;Intro.
+    &lt;div id=&#34;intro&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#intro&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;p&gt;我曾经在备考时刷过大量的题，但结果是成绩变得起起落落
+最近在学习 Machine Learning 时了解到一个新的概念&amp;ndash;“过拟合”&lt;br&gt;
+本文将引入机器学习的这一概念，尝试重新理解一个大部份情况下默认为真的前提&amp;ndash;&lt;em&gt;“刷题 = 学习”&lt;/em&gt;&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Anachronistic Romance</title>
