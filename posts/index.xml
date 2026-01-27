@@ -10,14 +10,14 @@
     <lastBuildDate>Sat, 24 Jan 2026 08:22:28 +0800</lastBuildDate><atom:link href="https://tobysneko.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Fitting-拟合(正在施工</title>
+      <title>Fitting | 学习、刷题与过拟合</title>
       <link>https://tobysneko.com/posts/overfitting-underfitting/overfitting-underfitting/</link>
       <pubDate>Sat, 24 Jan 2026 08:22:28 +0800</pubDate>
       
       <guid>https://tobysneko.com/posts/overfitting-underfitting/overfitting-underfitting/</guid>
       <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
-  &lt;blockquote&gt;
-&lt;p&gt;如非必要，勿增实体&lt;/p&gt;&lt;/blockquote&gt;
+  对历史精确或必然的解释，通常不是伟大或正确，而是穿凿附会的谬误.&lt;br&gt;
+&lt;small&gt;&amp;mdash; Ich. Selbst. tobyTop.&lt;/small&gt;
 &lt;/div&gt;
 
 
@@ -30,9 +30,9 @@
     &lt;/span&gt;
     
 &lt;/h1&gt;
-&lt;p&gt;我曾经在备考时刷过大量的题，但结果是成绩变得起起落落
-最近在学习 Machine Learning 时了解到一个新的概念&amp;ndash;“过拟合”&lt;br&gt;
-本文将引入机器学习的这一概念，尝试重新理解一个大部份情况下默认为真的前提&amp;ndash;&lt;em&gt;“刷题 = 学习”&lt;/em&gt;&lt;/p&gt;</description>
+&lt;p&gt;我曾经在备考时刷过大量的题，但结果是成绩变得起起落落TAT.&lt;br&gt;
+最近在学习 Machine Learning 时了解到一个新的概念&amp;mdash;“过拟合”&lt;br&gt;
+本文将引入机器学习的这一概念，尝试重新理解一个大部份情况下默认为真的前提&amp;mdash;&lt;em&gt;“刷题 = 学习”&lt;/em&gt;&lt;/p&gt;</description>
       
     </item>
     
