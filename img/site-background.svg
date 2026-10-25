@@ -1,0 +1,996 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080"
+  preserveAspectRatio="xMidYMid slice" aria-label="swimming fish background">
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 605.5960778977837; 960.0 643.6521403290378; 2680 605.5960778977837" dur="156.6s" begin="-0.36s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.356 0.356) rotate(-0.9079846005332541)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.06s" begin="-0.5s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 759.0876169750807; 960.0 797.1436794063347; 2680 759.0876169750807" dur="149.8s" begin="-28.13s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.345 0.345) rotate(-0.8607122294564729)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.97s" begin="-0.09s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 655.4680480861332; 960.0 693.5241105173873; 2680 655.4680480861332" dur="156.1s" begin="-68.26s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.343 0.343) rotate(-1.8222651826710505)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.32s" begin="-0.1s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 635.5901598433868; 960.0 673.6462222746409; 2680 635.5901598433868" dur="157.8s" begin="-95.16s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.337 0.337) rotate(-1.1600666224744423)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.06s" begin="-0.58s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 708.5397477492912; 960.0 746.5958101805453; 2680 708.5397477492912" dur="154.3s" begin="-122.21s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.405 0.405) rotate(4.320532709198044)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#5eead4"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.17s" begin="-0.57s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 167.73055304986252; 960.0 199.88067319844495; -760 167.73055304986252" dur="198.7s" begin="-3.24s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.346 0.346) rotate(-2.98685445968795)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#5eead4"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#5eead4"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.46s" begin="-0.12s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#5eead4"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 305.913535099996; 960.0 338.06365524857847; -760 305.913535099996" dur="197.1s" begin="-41.2s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.396 0.396) rotate(2.270497355171244)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#5eead4"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#5eead4"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#5eead4"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.24s" begin="-1.08s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#5eead4"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 263.89604649489996; 960.0 296.04616664348237; -760 263.89604649489996" dur="204.2s" begin="-85.53s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.398 0.398) rotate(3.9768196805246934)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#38bdf8"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#5eead4"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#5eead4"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.04s" begin="-0.73s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#5eead4"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 230.58646780930735; 960.0 262.7365879578898; -760 230.58646780930735" dur="197.6s" begin="-118.29s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.365 0.365) rotate(1.7531456060618922)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#5eead4"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#5eead4"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.59s" begin="-0.14s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#5eead4"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 208.52216793367737; 960.0 240.6722880822598; -760 208.52216793367737" dur="204.7s" begin="-159.55s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.32 0.32) rotate(-0.20706558467802516)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#5eead4"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#5eead4"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#5eead4"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.56s" begin="-0.22s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#5eead4"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 389.17311434067705; 960.0 410.5932762873055; 2680 389.17311434067705" dur="180.6s" begin="-4.69s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.387 0.387) rotate(-1.1372793769793805)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#7dd3fc"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.69s" begin="-0.68s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 470.9778136428982; 960.0 492.39797558952665; 2680 470.9778136428982" dur="179.2s" begin="-40.59s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.399 0.399) rotate(2.4735415982027327)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.96s" begin="-0.69s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 438.7937734130276; 960.0 460.2139353596561; 2680 438.7937734130276" dur="188.2s" begin="-68.19s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.306 0.306) rotate(1.4948833807837154)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.98s" begin="-0.69s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 404.314155552928; 960.0 425.7343174995565; 2680 404.314155552928" dur="184.4s" begin="-115.91s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.341 0.341) rotate(4.731052236134971)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.35s" begin="-0.85s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 400.89462593333786; 960.0 422.31478787996633; 2680 400.89462593333786" dur="182.8s" begin="-149.78s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.407 0.407) rotate(-1.1486467813326406)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.89s" begin="-0.66s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 389.79314023701767; 960.0 410.1622167240854; -760 389.79314023701767" dur="150.9s" begin="-1.28s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.392 0.392) rotate(4.6744188030507825)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.29s" begin="-0.8s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 437.2828685625928; 960.0 457.6519450496605; -760 437.2828685625928" dur="155.8s" begin="-28.57s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.385 0.385) rotate(5.115742830280304)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.65s" begin="-0.75s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 483.9483540469346; 960.0 504.3174305340023; -760 483.9483540469346" dur="155.6s" begin="-66.8s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.35 0.35) rotate(-4.928407965337047)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.53s" begin="-0.04s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 448.6435034865085; 960.0 469.01257997357624; -760 448.6435034865085" dur="149.5s" begin="-89.85s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.414 0.414) rotate(-5.279775167463269)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.86s" begin="-0.64s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 401.73184664127837; 960.0 422.1009231283461; -760 401.73184664127837" dur="156.8s" begin="-123.1s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.401 0.401) rotate(-4.20532087471882)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.36s" begin="-0.26s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 421.8301719441429; 960.0 392.0766840946152; 2680 421.8301719441429" dur="130.1s" begin="-1.87s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.802 0.802) rotate(-4.690768487017099)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#7dd3fc"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#7dd3fc"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.45s" begin="-1.14s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#7dd3fc"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 495.36133415664574; 960.0 465.60784630711805; 2680 495.36133415664574" dur="126.4s" begin="-36.39s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.665 0.665) rotate(-2.4855950496659074)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#22d3ee"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#22d3ee"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.59s" begin="-0.02s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#22d3ee"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 488.9498229583346; 960.0 459.1963351088069; 2680 488.9498229583346" dur="126.6s" begin="-68.53s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.668 0.668) rotate(-1.8301465761137523)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#38bdf8"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#38bdf8"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.1s" begin="-0.77s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#38bdf8"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 554.0106662130609; 960.0 524.2571783635332; 2680 554.0106662130609" dur="125.9s" begin="-97.35s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.825 0.825) rotate(2.9024186242979413)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#60a5fa"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#7dd3fc"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#7dd3fc"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.46s" begin="-0.08s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#7dd3fc"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 392.4756972421037; 960.0 366.55052043363366; 2680 392.4756972421037" dur="119.8s" begin="3.49s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.694 0.694) rotate(-4.190311086841034)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#38bdf8"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#5eead4"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#5eead4"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.63s" begin="-0.41s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#5eead4"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 440.91358477948404; 960.0 414.988407971014; 2680 440.91358477948404" dur="118.6s" begin="-25.35s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.713 0.713) rotate(2.0996967339983783)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#38bdf8"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#60a5fa"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#60a5fa"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.07s" begin="-0.87s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#60a5fa"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 391.2070435357511; 960.0 365.28186672728106; 2680 391.2070435357511" dur="119.2s" begin="-60.18s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.811 0.811) rotate(-3.337357215343648)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#38bdf8"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.01s" begin="-0.06s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.62">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 374.5349985621287; 960.0 348.60982175365865; 2680 374.5349985621287" dur="117.8s" begin="-92.68s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(0.774 0.774) rotate(2.485684695953914)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#38bdf8"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.56s" begin="-1.44s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.58">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 862.0184970332051; 960.0 917.9023561768308; -760 862.0184970332051" dur="111.5s" begin="-42.37s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.644 0.644) rotate(-7.028978410027179)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#38bdf8"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#38bdf8"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.95s" begin="-0.37s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#38bdf8"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.58">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 489.56594940066026; 960.0 502.1382334397699; -760 489.56594940066026" dur="107.9s" begin="-36.98s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.683 0.683) rotate(6.290003175468124)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#38bdf8"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#7dd3fc"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#7dd3fc"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.69s" begin="-0.01s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#7dd3fc"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.58">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 743.4227977764385; 960.0 728.2936346041348; -760 743.4227977764385" dur="128.6s" begin="-12.81s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-0.731 0.731) rotate(5.726119129678409)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#2dd4bf"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#2dd4bf"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#2dd4bf"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.68s" begin="-0.68s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#2dd4bf"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.72">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 812.6243990709347; 960.0 800.7913623256277; 2680 812.6243990709347" dur="67.7s" begin="-6.77s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(1.35 1.35) rotate(-4)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#39c5bb"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#39c5bb"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#39c5bb"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.33s" begin="-0.7s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#39c5bb"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.66">
+    <animateTransform attributeName="transform" type="translate"
+      values="2680 842.3504105752364; 960.0 880.6119862404453; -760 842.3504105752364" dur="70.2s" begin="-31.59s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(-1.15 1.15) rotate(5)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#14b8a6"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#14b8a6"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#14b8a6"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="1.4s" begin="-1.39s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#14b8a6"/>
+      </g>
+    </g>
+  </g>
+  <g class="fish" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate"
+      values="-760 724.5520456319985; 960.0 698.6008401843958; 2680 724.5520456319985" dur="70.4s" begin="-54.94s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+    <g transform="scale(1.28 1.28) rotate(-6)">
+      <g>
+        <path d="M 46 0 C 46 -13 36 -21 22 -22 C 2 -23.5 -18 -19 -38 -10 L -38 10
+                 C -18 19 2 23.5 22 22 C 36 21 46 13 46 0 Z" fill="#fb923c"/>
+        <path d="M -8 -20 Q 2 -43 21 -15 Z" fill="#fb923c"/>
+        <path d="M 2 21 Q 9 35 19 20 Z" fill="#fb923c"/>
+        <ellipse cx="6" cy="9" rx="21" ry="7" fill="#ffffff" fill-opacity="0.13"/>
+        <path d="M 15 -14 Q 10 -1 15 13" fill="none" stroke="#22303f"
+          stroke-opacity="0.12" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="28" cy="-7" r="6.2" fill="#ffffff" fill-opacity="0.92"/>
+        <circle cx="29.4" cy="-7" r="3" fill="#22303f" fill-opacity="0.82"/>
+      </g>
+      <g transform="translate(-38 0)">
+        <animateTransform attributeName="transform" type="rotate"
+          values="-13 0 0;13 0 0;-13 0 0" dur="0.97s" begin="-0.22s"
+          repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="0.45 0 0.55 1;0.45 0 0.55 1" additive="sum"/>
+        <path d="M 0 0 L -42 -24 L -34 0 L -42 24 Z" fill="#fb923c"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 19.0 -353.6; 38.0572835834231 -707.3"
+      dur="16.2s" begin="-14.72s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="435.8" cy="1110.5" r="6.4" fill="#e0f2fe" fill-opacity="0.17"
+      stroke="#bae6fd" stroke-opacity="0.48" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="16.2s" begin="-14.72s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 18.3 -253.2; 36.58942062612692 -506.4"
+      dur="23.1s" begin="-6.58s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1572.4" cy="1078.0" r="8.0" fill="#e0f2fe" fill-opacity="0.11"
+      stroke="#bae6fd" stroke-opacity="0.31" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="23.1s" begin="-6.58s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 20.2 -261.9; 40.32936298303785 -523.7"
+      dur="20.6s" begin="-2.5s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1409.5" cy="1110.6" r="8.4" fill="#e0f2fe" fill-opacity="0.09"
+      stroke="#bae6fd" stroke-opacity="0.26" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="20.6s" begin="-2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; -1.3 -257.3; -2.516756593403258 -514.7"
+      dur="19.4s" begin="-14.2s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="711.9" cy="1149.1" r="4.8" fill="#e0f2fe" fill-opacity="0.15"
+      stroke="#bae6fd" stroke-opacity="0.41" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="19.4s" begin="-14.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 28.0 -217.6; 55.92756120357498 -435.2"
+      dur="20.9s" begin="-17.86s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="779.7" cy="911.4" r="6.2" fill="#e0f2fe" fill-opacity="0.17"
+      stroke="#bae6fd" stroke-opacity="0.48" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="20.9s" begin="-17.86s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 3.5 -258.5; 7.078455431570035 -516.9"
+      dur="16.1s" begin="-2.42s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1761.4" cy="1073.0" r="8.6" fill="#e0f2fe" fill-opacity="0.16"
+      stroke="#bae6fd" stroke-opacity="0.46" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="16.1s" begin="-2.42s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; -30.9 -301.1; -61.75323687581455 -602.2"
+      dur="19.4s" begin="-2.81s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1762.9" cy="846.5" r="6.6" fill="#e0f2fe" fill-opacity="0.16"
+      stroke="#bae6fd" stroke-opacity="0.44" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="19.4s" begin="-2.81s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 5.5 -280.2; 11.06359530731089 -560.3"
+      dur="14.8s" begin="-10.78s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1385.3" cy="909.2" r="7.2" fill="#e0f2fe" fill-opacity="0.15"
+      stroke="#bae6fd" stroke-opacity="0.41" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="14.8s" begin="-10.78s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 19.8 -392.6; 39.55537744393753 -785.3"
+      dur="13.6s" begin="-3.82s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1161.5" cy="1111.3" r="6.1" fill="#e0f2fe" fill-opacity="0.15"
+      stroke="#bae6fd" stroke-opacity="0.43" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="13.6s" begin="-3.82s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 34.4 -399.8; 68.70240519829895 -799.6"
+      dur="16.9s" begin="-13.94s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="670.8" cy="1131.7" r="6.1" fill="#e0f2fe" fill-opacity="0.13"
+      stroke="#bae6fd" stroke-opacity="0.36" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="16.9s" begin="-13.94s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; -13.6 -275.0; -27.218547155624385 -550.0"
+      dur="17.7s" begin="-1.85s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1075.1" cy="577.3" r="7.1" fill="#e0f2fe" fill-opacity="0.13"
+      stroke="#bae6fd" stroke-opacity="0.36" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="17.7s" begin="-1.85s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 22.0 -342.1; 43.968667226247206 -684.1"
+      dur="16.4s" begin="-10.49s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="1414.7" cy="609.1" r="5.0" fill="#e0f2fe" fill-opacity="0.09"
+      stroke="#bae6fd" stroke-opacity="0.26" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="16.4s" begin="-10.49s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 33.6 -378.4; 67.16982651236648 -756.8"
+      dur="14.4s" begin="-9.03s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <circle cx="464.5" cy="1001.3" r="3.8" fill="#e0f2fe" fill-opacity="0.16"
+      stroke="#bae6fd" stroke-opacity="0.46" stroke-width="2">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.8;1"
+        dur="14.4s" begin="-9.03s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
